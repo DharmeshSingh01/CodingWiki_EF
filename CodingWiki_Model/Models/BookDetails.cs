@@ -7,11 +7,12 @@ using System.Threading.Tasks;
 
 namespace CodingWiki_Model.Models
 {
-    public class Publisher
+    public class BookDetail
     {
         [Key]
-        public int Publisher_Id { get; set; }
-        public string Name { get; set; }
-        public string Location { get; set; }
+        public int BookDetail_Id { get; set; }
+        public int NumberOfChapter { get; set; }
+        public int NumberOfPages { get; set; }
+        public double Weight { get; set; }
     }
 }

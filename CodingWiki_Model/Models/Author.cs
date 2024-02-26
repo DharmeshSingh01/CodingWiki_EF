@@ -10,6 +10,7 @@ namespace CodingWiki_Model.Models
 {
     public class Author
     {
+        [Key]
         public int Author_Id { get; set; }
         [Required]
         [MaxLength(50)]

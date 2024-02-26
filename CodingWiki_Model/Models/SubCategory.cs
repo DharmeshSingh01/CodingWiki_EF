@@ -7,11 +7,10 @@ using System.Threading.Tasks;
 
 namespace CodingWiki_Model.Models
 {
-    public class Publisher
+    public class SubCategory
     {
-        [Key]
-        public int Publisher_Id { get; set; }
+        [Key] 
+        public int SubCategory_Id { get; set; }
         public string Name { get; set; }
-        public string Location { get; set; }
     }
 }
